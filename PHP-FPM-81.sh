@@ -46,6 +46,7 @@ pool_file_71="/etc/php/7.1/fpm/pool.d/$2.conf"
 pool_file_72="/etc/php/7.2/fpm/pool.d/$2.conf"
 pool_file_73="/etc/php/7.3/fpm/pool.d/$2.conf"
 pool_file_74="/etc/php/8.0/fpm/pool.d/$2.conf"
+pool_file_81="/etc/php/8.1/fpm/pool.d/$2.conf"
 
 if [ -f "$pool_file_56" ]; then
     rm $pool_file_56
