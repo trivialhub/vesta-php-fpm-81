@@ -28,7 +28,7 @@
 #    </IfModule>
 
     <FilesMatch \.php$>
-        SetHandler "proxy:unix:/run/php/php8.0-fpm-%domain%.sock|fcgi://localhost/"
+        SetHandler "proxy:unix:/run/php/php8.1-fpm-%domain%.sock|fcgi://localhost/"
     </FilesMatch>
     SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
 
